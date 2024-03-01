@@ -1,0 +1,147 @@
+.card {
+  border-radius: 1.25rem;
+  box-shadow: none;
+}
+
+.card-user {
+  border-radius: 2rem;
+
+
+}
+
+.border-l {
+  border: none;
+}
+
+
+
+::ng-deep .mat-checkbox .mat-checkbox-frame {
+  border: none !important;
+  background-color: #ececf9;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 0.25rem !important;
+
+}
+
+::ng-deep .mat-checkbox-checked .mat-checkbox-background {
+  background-color: #42c284 !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 0.25rem !important;
+}
+
+.time-value-blue {
+  color: #302ea7;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 17px;
+  margin-top: 5px;
+  background-color: #f5f5fb;
+  border-radius: 1rem;
+}
+
+.time-value-orange {
+  color: #fe8b5f;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 17px;
+  margin-top: 5px;
+  background-color: #f5f5fb;
+  border-radius: 1rem;
+}
+
+.question-span {
+  background-color: #ececf9;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 0.25rem;
+  margin-right: 0px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.question-title {
+  font-weight: bold;
+  font-size: 0.8rem
+}
+
+.date-score-container {
+  border: 0.5px solid #e3e3f3;
+  border-radius: 1.5rem;
+
+}
+
+.right-sidebar {
+  height: 100%;
+  border-radius: 2rem;
+}
+
+.online-exam-title {
+  font-size: 1.5rem;
+}
+
+.see-all {
+  font-size: 12px;
+  text-align: center;
+  border-radius: 0.75rem;
+  height: auto;
+  color: #302ea7
+}
+
+.text-dark {
+  color: black
+}
+
+#video-row1,
+#video-row2,
+#video-row3,
+#video-row4 {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.lesson-avatar {
+  border-radius: 0.75rem !important;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-courses-cards {
+
+  border-radius: 2rem;
+}
+
+.german-popular {
+  padding: 5px;
+  text-align: center;
+  background-color: #b6b4b46b;
+  border-radius: 0.75rem;
+  color: #e1e1ff;
+  width: auto
+}
+
+.korean-popular,
+.french-popular {
+  padding: 5px;
+  text-align: center;
+  background-color: #b6b4b46b;
+  border-radius: 0.75rem;
+
+}
+.likes-container{
+  display: flex;flex-direction: column;color:#302ea7;
+}
+.comments-container, .download-container{
+  display: flex;flex-direction: column;
+}
+.next-video-title{
+font-size: 1.2rem;
+}
+.next-video-container{
+  border-radius: 2rem;  height: 100%;
+}
